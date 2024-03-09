@@ -1,0 +1,1103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+
+}
+#nav1{
+    width: 100%;
+    height: 60px;
+    background-color: #FFDAE3;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+#nav-part1 h5{
+    left: 35%;
+    top: 15px;
+    color: #f7a4e2;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: gilroy;
+    letter-spacing: 2px;
+    position: absolute; 
+
+}
+#nav-part2 {
+    left: 80%;
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    padding: 10px 0px;
+    background-color:  #FFA6B8;
+}
+#nav-part2 i{
+    
+    font-size: 24px;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+
+}
+#nav-part2 i:hover{
+    color: #fff;
+}
+#nav2{
+    width: 100%;
+    height: 250px;
+   
+    }
+#nav2-part1{
+    left: 40%;
+    position: absolute;
+    top: 50px;
+}
+#logo{
+    
+    position: absolute;
+    top: 25px;
+    margin-left: -65px;
+}
+#nav2-part2{
+    font-size: 50px;
+    margin-top: 80px;
+    margin-left: 600px;
+    color: #C4ABE5;
+    
+}
+#nav3{
+    height: 70px;
+    width: 100%;
+    background-color: #f0c9d3;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+#nav3 h5{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    left: 30%;
+    position: relative;
+    font-family: gilroy;
+    color: #F9588E;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#nav3 h5:hover{
+      color: #fff;
+      border-bottom: 1px solid #F9588E;
+      scale: 1.2;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: #FFEDEC;
+    display: flex;
+}
+#left{
+    width: 50%;
+    height: 100%;
+
+}
+
+#left img{
+    margin-top: 60px;
+    margin-left: 70px;
+    width: 530px;
+    height: 590px;
+    border: 8px solid #fff;
+    animation: img1 2s  ease-in-out  ;
+}
+@keyframes img1 {
+    0%{
+        opacity: 0;
+    }
+   100%{
+        opacity: 1;
+    }
+    
+    
+}
+#right{
+    height: 100%;
+    width: 50%;
+
+    
+    
+}
+ #center{
+    width: 550px;
+    height: 600px;
+  
+    margin-left: 90px;
+    position: absolute;
+    
+ } 
+#center h3{
+    font-size: 80px;
+    font-weight: 300;
+    margin-top: 70px;
+    margin-left: -30px;
+    text-align: center;
+    color: #FA7596;
+    font-family: kimberly signature;
+}
+#center h1{
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: -6px;
+    text-align: center;
+    font-family: love craft;
+    margin-top: 10px;
+    margin-left: -40px;
+}
+#center h2{
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: -12px;
+    text-align: center;
+    font-family: love craft;
+    margin-top: 5px;
+    margin-left: -80px;
+    
+}
+#center h4{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color: #FFA857;
+}
+#center button{
+    font-size: 20px;
+    padding: 18px 20px;
+
+    margin-left: 180px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #CCC8F8;
+    border: none;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#center button:hover{
+    background-color: #FF859D;
+}
+#page2{
+    width: 100%;
+    height: 70%;
+    background-color: #FFFFFF;
+    text-align: center;
+
+}
+#center2{
+    height: 400px;
+    width: 750px;
+    
+    margin-top: 80px;
+    margin-left: 25%;
+    position: absolute;
+    
+}
+#center2 h2{
+    font-size: 50px;
+    font-weight: 500;
+    color: #FFA857;
+    font-family: rose quay;
+    margin-bottom: 20px;
+
+    
+}
+#center2 p{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(55, 53, 53);
+}
+#page3{
+    width: 100%;
+    height: 130%;
+    background-color: #FFEDEC;
+}
+#page3 h2{
+    font-size: 60px;
+    font-weight: 500;
+    color: #F95881;
+    font-family: kimberly signature;
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 35%;
+}
+#box{
+   align-items: center;
+   justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+padding-top: 130px;
+    margin-left: 15px;
+}
+#box1{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+    height: 550px;
+    width: 400px;
+    background-color: #FFA6B8;
+    
+    
+}
+#box2{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 550px;
+    width: 400px;
+    background-color: #FFA6B8;
+}
+#box3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    height: 550px;
+    width: 400px;
+    background-color: #FFA6B8;
+}
+#un1{
+    width: 300px;
+    height: 350px;
+  
+    border: 2px solid #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    
+}
+#un1:hover{
+    scale: 1.1;
+}
+
+#un2{
+    width: 300px;
+    height: 350px;
+   
+    border: 2px solid #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    
+}
+#un2:hover{
+    scale: 1.1;
+}
+
+
+
+#un3{
+    width: 300px;
+    height: 350px;
+    
+    border: 2px solid #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#un3:hover{
+    scale: 1.1;
+}
+ h3{
+    font-size: 40px;
+    margin-left: 50px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(56, 55, 55);
+}
+ h3:hover{
+    color: #fff;
+
+}
+#page3 button{
+    font-size: 20px;
+    padding: 22px 25px;
+   
+    margin-left: 600px;
+    margin-top: 50px;
+    position: absolute;
+    color: #fff;
+    background-color: #FFA857;
+    border: none;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+
+}
+#page3 button:hover{
+    background-color: rgb(123, 225, 123);
+}
+#page4{
+    height: 70%;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#boxx1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width: 310px;
+    background-color: #FF859D;
+}
+#boxx1 h2{
+    font-size: 90px;
+    font-family: kimberly signature;
+    font-weight: 400;
+    color: #fff;
+}
+#boxx1 h1{
+    
+    font-size: 70px;
+    font-family: love craft;
+    color: #fff;
+}
+
+#boxx2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width: 310px;
+    background-color: #CCC8F1;
+}
+#boxx2 h2{
+    font-size: 90px;
+    font-family: kimberly signature;
+    font-weight: 400;
+    color: #fff;
+
+}
+#boxx2 h1{
+    font-size: 50px;
+    font-family: love craft;
+    font-weight: 500;
+    margin-left: 14px;
+    color: #fff;
+}
+
+#boxx3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width: 310px;
+    background-color: #FFBFCC;
+}
+#boxx3 h2{
+    font-size: 90px;
+    font-family: kimberly signature;
+    font-weight: 400;
+    color: #fff;
+}
+#boxx3 h1{
+    font-size: 60px;
+    font-family: love craft;
+    font-weight: 500;
+    margin-left: 15px;
+    color: #fff;
+  
+}
+
+#boxx4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width: 310px;
+    background-color: #FFA857;
+}
+#boxx4 h2{
+    font-size: 90px;
+    font-family: kimberly signature;
+    font-weight: 400;
+    color: #fff;
+}
+#boxx4 h1{
+    font-size: 60px;
+    font-family: love craft;
+    font-weight: 500;
+    color: #fff;
+}
+#page5{
+    width: 100%;
+    height: 100%;
+    background-color: #FFEDEC;
+}
+ 
+#page5 h2{
+  
+    font-size: 70px;
+    font-family: rose quay;
+    font-weight: 400;
+    padding-top: 10px;
+   
+    left: 40%;
+    position: absolute;
+    color: #FFA857;
+    }
+#sellers{
+    
+    
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    margin-left: 10px;
+}
+#sellers::-webkit-scrollbar{
+    display: none;
+}
+#sellers img{
+    height: 400px;
+   
+}
+
+
+#p1{
+    margin-top: 150px;
+}
+#p1 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p1 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+#p2{
+    margin-top: 150px;
+}
+#p2 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p2 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+
+#p3{
+    margin-top: 150px;
+}
+#p3 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p3 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+
+#p4{
+    margin-top: 150px;
+}
+#p4 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p4 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+
+#p5{
+    margin-top: 150px;
+}
+#p5 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p5 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+
+#p6{
+    margin-top: 150px;
+}
+#p6 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p6 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+
+#p7{
+    margin-top: 150px;
+}
+#p7 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p7 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+
+#p8{
+    margin-top: 150px;
+}
+#p8 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p8 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+
+
+#p9{
+    margin-top: 150px;
+}
+#p9 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p9 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+
+#p10{
+    margin-top: 150px;
+}
+#p10 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p10 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+
+#p11{
+    margin-top: 150px;
+}
+#p11 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p11 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+
+#p12{
+    margin-top: 150px;
+}
+#p12 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p12 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+
+#p13{
+    margin-top: 150px;
+}
+#p13 h4{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 41, 41);
+    font-family: gilroy;
+}
+#p13 h5{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: gilroy;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+    
+}
+#page5 button{
+position: absolute;
+left: 43%;
+margin-top: 23px;
+    font-size: 15px;
+    padding: 20px 22px;
+   text-align: center;
+    color: #fff;
+    background-color: #FFA857;
+    border: none;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+
+}
+#page5 button:hover{
+    background-color: #CCC8F8;
+}
+#page6{
+    height: 120%;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+}
+#left1{
+        height: 80%;
+    width: 55%;
+    background-color: #FFDAE3;
+    margin-top: 80px;
+    margin-left: 30px;
+    
+    
+}
+#left1 h3{
+    font-size: 60px;
+    font-weight: 600;
+    rotate: -25deg;
+    margin-top: -30px;
+    margin-left: -10px;
+    position: absolute;
+    font-family: authentic city;
+    color: #FFA857;
+}
+#Twogirl{
+    height: 520px;
+    width: 650px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+#right1{
+    height: 100%;
+    width: 45%;  
+}
+#right1 h2{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 120px;
+    color: #F95881;
+}
+#right1 p{
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: rgb(56, 55, 55);
+}
+#page7{
+    height: 100%;
+    width: 100%;
+    background-color: #FFEDEC;
+    display: flex;
+}
+#left2{
+    height: 100%;
+    width: 50%;
+
+}
+#frd1{
+    margin-top: 20px;
+    margin-left: 150px;
+    rotate: -12deg;
+    border: 10px solid #fff;
+}
+#frd2{
+  
+    z-index: 99999;
+    position: absolute;
+    left: 1px;
+    margin-top: 20%;
+    border: 10px solid #fff;
+}
+#right2{
+    height: 100%;
+    width: 50%;
+
+}
+#center3{
+    height: 600px;
+    width: 600px;
+
+    text-align: center;
+    margin-top: 50px;
+}
+#center3 h2{
+    font-size: 60px;
+    font-weight: 300;
+    font-family: kimberly signature;
+    color: #F95881;
+}
+#center3 h4{
+    font-size: 70px;
+    font-weight: 400;
+    font-family: rose quay;
+    margin-top: 30px;
+    color: #FFA857;
+}
+#center3 h1{
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: -9px;
+    font-family: love craft;
+}
+#center3 p{
+    font-size: 18px;
+    font-family: k2d;
+    font-weight: 400;
+    margin-top: 30px;
+    color: rgb(49, 48, 48);
+}
+#center3 button{
+    font-size: 20px;
+    padding: 20px 25px;
+    margin-left: 50px;
+    margin-top: 40px;
+
+    color: #fff;
+    background-color: #FF859D;
+    border: none;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#center3 button:hover{
+    background-color: #FFA357;
+}
+#page8{
+    height: 50%;
+    width: 100%;
+    background-color: #FFEDEC;
+    text-align: center;
+    margin-top: 30px;
+}
+#center4{
+    height: 300px;
+    width: 100%;
+
+    margin-top: 60px;
+    position: absolute;
+}
+#center4 h2{
+    font-size: 70px;
+    font-family: love craft;
+}
+#center4 p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: k2d;
+    margin-top: 25px;
+    color: rgb(38, 37, 37);
+}
+#center4 button{
+    font-size: 20px;
+    padding: 15px 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    color: #fff;
+    background-color: #FF859D;
+    border: none;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+
+}
+#center4 button:hover{
+    background-color: #CCC8F8;
+}
+#page9{
+    height: 100%;
+    width: 100%;
+    background-color: #FFEDEC;
+    display: flex;
+    margin-top: 70px;
+}
+#page9 h2{
+    font-size: 60px;
+    font-weight: 450;
+    color: #F95881;
+    font-family: kimberly signature;
+    text-align: center;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 40%;
+ 
+
+    
+}
+#hom{
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+   padding-left: 40px;
+    padding-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+#hom1{
+   width: 300px;
+   height: 500px;
+   transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#hom1:hover{
+    scale: 1.2;
+}
+#hom2{
+    width: 300px;
+   height: 500px;
+   transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    
+} 
+#hom2:hover{
+    scale: 1.2;
+}
+
+#hom3{
+    width: 300px;
+    height: 500px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+   
+}
+#hom3:hover{
+    scale: 1.2;
+}
+
+#page10{
+    /* height: 100%; */
+    width: 100%;
+    background-color: #FFEDEC;
+
+}
+#center5{
+
+    display: flex;
+ align-items: center;
+justify-content: space-around;
+}
+#btm1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+   
+}
+#btm1 h2{
+    font-size: 50px;
+    font-weight: 400;
+    color: #F95D85;
+   margin-bottom: 10px;
+    font-family: kimberly signature;
+
+}
+#btm1 h5{
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: k2d;
+
+   
+    
+}
+#btm3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+
+
+}
+#btm3 h2{
+    font-size: 50px;
+    font-weight: 400;
+font-family: kimberly signature;
+margin-bottom: 15px;
+
+}
+#btm3 h5{
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: k2d;}
+
+#btmbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 180px;
+
+    background-color: #fff;
+    border-radius: 100%;
+    margin-bottom: 60px;
+ animation: btmboxAnime 2s linear infinite;
+    
+}
+@keyframes btmboxAnime {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+    
+}
+#btmlogo{
+    height: 45px;
+
+     
+} 
+#center5 p{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #F95881;
+    font-family: k2d;
+    
+ 
+}
+#btmbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+
+
+}
+#btmbtn input{
+   
+    font-size: 20px;
+   padding: 10px 7px;
+    border: 1px solid #313030;
+   
+    background-color: #fff;
+
+    border-radius: 10px;
+}
+
+#btmbtn button{
+    font-size: 20px;
+    
+    padding: 10px 20px;
+border-radius: 10px;
+    color: #fff;
+    background-color: #FFA357;
+    border: none;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+
+}
+#btmbtn button:hover{
+    background-color: #F9588E;
+}
+#btmnav{
+    height: 50px;
+    width: 100%;
+    background-color: #FFDAE3;
+}
+#btmnav h5{
+    
+    text-align: end;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 40%;
+    font-family: k2d;
+    position: absolute;
+
+}
